@@ -99,7 +99,7 @@ function game() {
       }
       //labyrinthe.classList.toggle('horizontal');
   } 
-  if (characterPos.x === 9 && characterPos.y === 10) {
+  if (characterPos.x === 7 && characterPos.y === 10) {
       window.alert("En raison d'un colis suspect, votre progression est ralenti !");
       labyrinthe.classList.toggle('slow');
   }   
