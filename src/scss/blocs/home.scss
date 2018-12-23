@@ -16,7 +16,7 @@
 }
 
 .home__title {
-  color: red;
+  color: white;
   font-size: 4em;
 }
 
@@ -28,16 +28,15 @@
   justify-content: space-between;
   align-items: center;
   font-size: 2em;
-  border: solid white;
 
   .png {
     transform: translateX(-50px);
     animation: move 10s;
+    background: purple;
   }
 
   .picture {
-    background: red;
-    border: solid white;
+    background: teal;
     text-align: center;
   }
 
