@@ -1,9 +1,9 @@
-@import 'vendors/reset';
+@import 'global/reset.scss';
 @import 'global/layout';
+@import 'global/fonts.scss';
+@import 'global/mixins.scss';
+@import 'global/keyframes.scss';
+
 @import 'blocs/home.scss';
 @import 'blocs/game.scss';
 @import 'blocs/end.scss';
-
-* {
-	box-sizing: border-box;
-}
