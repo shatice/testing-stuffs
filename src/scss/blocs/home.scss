@@ -1,14 +1,23 @@
-@keyframes move {
+/*@keyframes move {
   to {
     transform: translateX(720px);
   }
 }
 
+.screen {
+  background: white;
+}
+
 .home {
-  width: 100vw;
-  height: 100vh;
-  background: black;
+  animation: disapear 5s;
+
+  width: 800px;
+  height: 800px;
+  background: blue;
   color: white;
+
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,5 +51,63 @@
 
   .empty {
 
+  }
+}*/
+
+.home__screen{
+}
+
+.home__content {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .is-called {
+    animation: disappear 5s;
+  }
+}
+
+.title {
+  height: 30vh;
+  width: 100vw;
+  background: teal;
+
+  font-size: 4em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base {
+  height: 70vh;
+  width: 100vw;
+  background: gold;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+
+  // to switch whith a pic after
+  .subway {
+    width: 50px;
+    height: 50px;
+
+    background: green;
+  }
+
+  // to switch whith a pic after
+  .png {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    background: black;
   }
 }
