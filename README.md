@@ -1,3 +1,6 @@
+At first L.I.C - Hetic-NES team's game 
+Now : working on it, testing stuffs
+
 # `OXO` game library
 
 This is a boilerplate repository using `OXO`, a minimalist game library to handle common actions in games. This is not optimized for production and uses purposefully simplified patterns for an educational purpose.
